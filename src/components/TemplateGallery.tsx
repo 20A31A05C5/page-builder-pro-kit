@@ -1,12 +1,12 @@
 
-import { layoutGrid, layoutList, galleryHorizontal, galleryVertical } from "lucide-react";
+import { LayoutGrid, LayoutList, GalleryHorizontal, GalleryVertical } from "lucide-react";
 import React from "react";
 
 const templates = [
   {
     name: "Bold Hero",
     desc: "High-impact hero section, big headline, call to action.",
-    icon: layoutGrid,
+    icon: LayoutGrid,
     preview: (
       <div className="w-full aspect-video rounded-lg bg-gradient-to-br from-blue-400 to-emerald-400 flex flex-col items-center justify-center relative overflow-hidden">
         <div className="w-3/5 h-3 bg-white rounded-full mt-4" />
@@ -18,7 +18,7 @@ const templates = [
   {
     name: "Minimalist",
     desc: "Clean layout, focus on main message and email signup.",
-    icon: layoutList,
+    icon: LayoutList,
     preview: (
       <div className="w-full aspect-video rounded-lg bg-slate-100 flex flex-col items-center justify-center border">
         <div className="w-2/5 h-3 bg-slate-400 rounded-full" />
@@ -30,7 +30,7 @@ const templates = [
   {
     name: "Product Showcase",
     desc: "Feature grid, product gallery, lead form.",
-    icon: galleryHorizontal,
+    icon: GalleryHorizontal,
     preview: (
       <div className="w-full aspect-video bg-gradient-to-br from-pink-200 via-purple-200 to-yellow-100 rounded-lg p-2 flex flex-col gap-2">
         <div className="flex gap-2">
@@ -46,7 +46,7 @@ const templates = [
   {
     name: "Split Image",
     desc: "Two-column: attention-grabbing image & headline.",
-    icon: galleryVertical,
+    icon: GalleryVertical,
     preview: (
       <div className="w-full aspect-video bg-gradient-to-l from-fuchsia-400 to-orange-200 rounded-lg flex">
         <div className="w-1/2 h-full bg-white/80 rounded-l-lg" />
@@ -60,7 +60,7 @@ const templates = [
   {
     name: "Elegant Dark",
     desc: "Sophisticated dark theme, bold headline, sleek form.",
-    icon: layoutGrid,
+    icon: LayoutGrid,
     preview: (
       <div className="w-full aspect-video bg-neutral-900 rounded-lg flex flex-col items-center justify-center border border-neutral-800">
         <div className="w-3/5 h-3 bg-neutral-700 rounded-full" />
@@ -72,7 +72,7 @@ const templates = [
   {
     name: "Startup Gradient",
     desc: "Ombre gradient background, modern cards, minimal nav.",
-    icon: galleryHorizontal,
+    icon: GalleryHorizontal,
     preview: (
       <div className="w-full aspect-video bg-gradient-to-br from-indigo-400 to-pink-400 rounded-lg flex flex-col justify-end items-center">
         <div className="w-4/5 h-3 bg-white/60 rounded mb-3" />
