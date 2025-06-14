@@ -1,8 +1,8 @@
-
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import PricingTable from "../components/PricingTable";
 import LeadCaptureDemo from "../components/LeadCaptureDemo";
+import TemplateGallery from "../components/TemplateGallery";
 import { User, Users, FileText, Check, Plus, Code } from "lucide-react";
 
 const features = [
@@ -45,7 +45,9 @@ const Index = () => (
             Get Started Free
           </button>
         </Link>
-        <div className="mt-2 text-sm text-muted-foreground">No credit card required</div>
+        <div className="mt-2 text-sm text-muted-foreground">
+          No credit card required
+        </div>
       </section>
 
       <section className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -59,6 +61,8 @@ const Index = () => (
           </div>
         ))}
       </section>
+
+      <TemplateGallery />
 
       <section className="mt-16">
         <PricingTable />
